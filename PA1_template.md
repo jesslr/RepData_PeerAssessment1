@@ -279,4 +279,4 @@ tsPlot + theme(plot.title = element_text(size=18, face="bold", vjust=2))
 maxRows <- by(avgstepsDay, avgstepsDay$isWkEnd, function(X) X[which.max(X$steps),])
 ```
 
-Based on the plots, it looks like weekdays have a higher peak slightly earlier in the day.  Weekends are fairly active, but doesn't have as high of a peak.
+Based on the plots, it looks like weekdays have a higher peak slightly earlier in the day.  Weekends are fairly active, but doesn't have as high of a peak.  It also appears that the day starts and ends a bit later on weekends.
